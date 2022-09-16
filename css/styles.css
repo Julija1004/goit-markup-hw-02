@@ -86,7 +86,7 @@ body {
     color: var(--outline-color);
 }
  
-/*hero*/
+/*text*/
 
 .main-title {
     color: var(--main-light);
@@ -150,11 +150,11 @@ body {
         color:var(--secondary-color);
         letter-spacing: 0.03em;  
     }
-    /*hero END*/
+    /*text END*/
 
     /*footer*/
     
-    /*logo-2*/
+    /*logo*/
 .logo-white {
     font-family: 'Raleway';
     text-decoration: none;
