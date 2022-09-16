@@ -14,14 +14,25 @@
     --outline-color: #2196f3;
 
 }
-
+body {
+    font-family: var(--main-font);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--main-color-fomt);
+}
 .link {
     
     text-decoration: none;
-    font-style: normal;
     color: var(--secondary-color);
     font-weight: 500;
-        }
+    letter-spacing: 0.02em;
+   }
+   .link-footer {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: 400;
+    letter-spacing: 0.03em;
+   }
 
 .link:focus {color: var(--outline-color);
 
@@ -32,34 +43,33 @@
 
 .current {color: var(--outline-color);
     text-decoration: none;
-    font-style: normal, sans-serif;
+    font-style: sans-serif;
     font-weight: 500;
-}
-body {
-    font-family: var(--main-font);
+    letter-spacing: 0.02em;
     font-size: 14px;
-    letter-spacing: 0.03em;
-    color: var(--main-color-fomt);
 }
+
 
 .section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    letter-spacing: 0.03em;
           
 }
 
-/*logo1*/
-.logo-1 {
+/*logo*/
+.logo-dark {
     font-family: 'Raleway';
     text-decoration: none;
     font-style: normal, sans-serif;
     font-size: 26px;
     line-height: 1.19;
     color: var(--outline-color);
+    letter-spacing: 0.03em;
 }
-.logo-wrap-1 {
+.logo-color-change {
     color: var(--main-color-fomt);
 }
 /*end logo*/
@@ -72,14 +82,10 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-color-fomt);
 }
-.nav-link:hover {
-    color: var(--outline-color) ;
-}
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus {
     color: var(--outline-color);
 }
-
-
+ 
 /*hero*/
 
 .main-title {
@@ -89,7 +95,6 @@ body {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-    padding: 200px 452px;
     text-transform: uppercase;
     
     
@@ -112,55 +117,55 @@ body {
     padding: 10px 32px;
     }
 
-    .nav-button:hover {
+    .nav-button:hover, .nav-button:focus {
         background: var(--outline-color);
 
     }
 
-    .nav-button:focus {
-        background: var(--outline-color);
-
-    }
-
-    .subtitle {
+        .subtitle {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
-    Font style: Bold;
-        }
-    .hero-text {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+        
+    }
+    .text {
     line-height: 1.71;
     color: var(--secondary-color);
     }
 
-    .subtitle-2 {
+    .name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
+    letter-spacing: 0.03em;
     
     }
-    .hero-text-2 {
+    .job-title {
         font-size: 16px;
         line-height: 1.18;    
         text-align: center;
-        color:var(--secondary-color);  
+        color:var(--secondary-color);
+        letter-spacing: 0.03em;  
     }
     /*hero END*/
 
     /*footer*/
     
     /*logo-2*/
-.logo-2 {
+.logo-white {
     font-family: 'Raleway';
     text-decoration: none;
     font-style: normal, sans-serif;
     font-size: 26px;
     line-height: 1.19;
     color: var(--outline-color);
+    letter-spacing: 0.03em;
     
 }
-.logo-wrap-2 {
+.logo-color {
     color: var(--main-light);
     }
 /*end logo*/
@@ -171,8 +176,8 @@ body {
  line-height: 1.71;
  color: var(--main-light);
  text-decoration: none;
- font-style: normal;
  background: var(--main-dark);
+ font-style: normal;
 }
 
 .contacts:hover{
@@ -194,10 +199,11 @@ background: var(--main-dark);
     color: rgba(255, 255, 255, 0.6);
 }
 
-.button-p {
+.menu-button {
 font-family:inherit;
 font-weight: 500;
 font-size: 16px;
+letter-spacing: 0.03em;
 line-height: 1.62;
 text-align: center;
 color: var(--main-color-fomt);
@@ -206,42 +212,21 @@ background: #F5F4FA;
 cursor:pointer;
 border-radius: 4px;
 }
-.button-p:hover {
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
+.menu-button:hover, .menu-button:focus {
 color: var(--main-light);
 background-color: var(--outline-color);
-cursor:pointer;
-border-color: transparent;
-border-radius: 4px;
 }
 
-.button-p:focus{
-font-family: inherit;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-color: var(--main-light);
-background-color: var(--outline-color);
-cursor:pointer;
-border-color: transparent;
-border-radius: 4px;
-
-}
-.title-p {
+.link-title {
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--main-color-fomt);
 }
-.text-p {
+.text-description {
 font-size: 16px;
+letter-spacing: 0.03em;
 line-height: 1.88;
 color: var(--secondary-color);
 }
